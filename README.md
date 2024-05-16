@@ -70,7 +70,7 @@ Eg:
 NEXT_PUBLIC_GTM = ""
 ```
 
-### Now, you have to customize user data in the `data` [folder](#).
+### Now, you have to customize user data in the `data` [folder](https://github.com/dharam-gfx/github-portfolio/blob/main/data/user-data.js).
 
 Eg:
 
