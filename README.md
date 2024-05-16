@@ -6,7 +6,7 @@
 
 # Demo :movie_camera:
 
-![httpsgithub dharam_gfx](https://github.com/)
+![httpsgithub dharam_gfx](https://raw.githubusercontent.com/dharam-gfx/github-portfolio/main/public/git.jpeg)
 
 ## View live preview [here](#)
 
