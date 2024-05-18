@@ -8,7 +8,7 @@
 
 ![httpsgithub dharam_gfx](https://raw.githubusercontent.com/dharam-gfx/github-portfolio/main/public/git.jpeg)
 
-## View live preview [here](#)
+## View live preview [here](https://dharam-gfx.netlify.app/)
 
 ---
 
