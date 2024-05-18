@@ -28,13 +28,16 @@ async function getGitProjects() {
 export default async function Home() {
   const profile = await getGitProfile();
   const projects = await getGitProjects();
-
+  const projectItems = projects.items.filter(projectItem => projectItem.is_template).length
+    ? projects.items.filter(projectItem => projectItem.is_template)
+    : projects.items;
+    
   return (
     <>
       <HeroSection profile={profile} />
       <GitStats />
       <Projects
-        projects={projects.items}
+        projects={projectItems}
         profile={profile}
       />
       <GitLanguage />
