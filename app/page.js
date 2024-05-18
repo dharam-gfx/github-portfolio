@@ -31,7 +31,7 @@ export default async function Home() {
   const projectItems = projects.items.filter(projectItem => projectItem.is_template).length
     ? projects.items.filter(projectItem => projectItem.is_template)
     : projects.items;
-    
+
   return (
     <>
       <HeroSection profile={profile} />
