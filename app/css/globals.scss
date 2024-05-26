@@ -16,3 +16,16 @@ body {
   color: rgb(var(--foreground-rgb));
   background-color: #0d1224;
 }
+
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: #ffffff26;
+}
+
+::-webkit-scrollbar-thumb {
+   background: conic-gradient(from 180deg at 50% 70%,
+  #f626af 0deg,
+  #8228ec 72.0000010728836deg,
+  #f626af 144.0000021457672deg);;
+  border-radius: 10px;
+}
