@@ -121,4 +121,4 @@ export const userData = {
 
 ## Disclaimer
 
-In this repository, I have used some open source APIs. All credits go to the owners of those repositories.
+I have used some figma degin in this repository. All of the credit goes to the degin owners.
