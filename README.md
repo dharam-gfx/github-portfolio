@@ -119,6 +119,3 @@ export const userData = {
 
 ---
 
-## Disclaimer
-
-I have used some figma degin in this repository. All of the credit goes to the degin owners.
