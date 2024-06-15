@@ -8,6 +8,6 @@ export const userData = {
   stackOverflow: 'https://stackoverflow.com/users/24954262/dharmendra-kumar',
   leetcode: "https://leetcode.com/u/dharam-gfx/",
   resume: "#",
-  skills: ['React', 'NextJS', 'Redux', 'Express', 'NestJS', 'MySql', 'MongoDB', 'Vue', 'Adobe Photoshop', 'Premiere Pro'],
+  skills: ['React', 'NextJS', 'Redux', 'Express', 'NodeJS', 'MySql', 'MongoDB', 'Vue 3', 'Figma', 'Adobe Photoshop', 'Premiere Pro'],
   timezone: '+6'
 };
