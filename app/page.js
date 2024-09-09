@@ -16,7 +16,7 @@ async function getGitProfile() {
 };
 
 async function getGitProjects() {
-  const res = await fetch(`https://api.github.com/search/repositories?q=user:${userData.githubUser}+fork:false&sort=stars&per_page=10&type=Repositories`)
+  const res = await fetch(`https://api.github.com/search/repositories?q=user:${userData.githubUser}+fork:false&sort=stars&per_page=20&type=Repositories`)
 
   if (!res.ok) {
     throw new Error('Failed to fetch data')
