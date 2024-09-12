@@ -85,18 +85,7 @@ export const userData = {
   stackOverflow: "https://stackoverflow.com/users/24954262/dharmendra-kumar",
   leetcode: "https://leetcode.com/u/dharam-gfx/",
   resume: "#",
-  skills: [
-    "React",
-    "NextJS",
-    "Redux",
-    "Express",
-    "NestJS",
-    "MySql",
-    "MongoDB",
-    "Vue",
-    "Adobe Photoshop",
-    "Premiere Pro",
-  ],
+  skills: ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'Vue 3', 'React', 'NextJS', 'Redux', 'NodeJS', 'Express', 'MongoDB', 'bootstrap', 'tailwind ', 'AntDesign', 'shadcn', 'Figma', 'Adobe Photoshop', 'Premiere Pro'],
   timezone: "+6",
 };
 ```
