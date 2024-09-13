@@ -133,13 +133,13 @@ function HeroSection({ profile }) {
                 <span className="text-gray-400">{`['`}</span>
                 {
                   userData.skills.map((skill, i) => (
-                    <>
-                      <span className="text-cyan-400">{skill}</span>
+                    <span key={i}> 
+                      <span  className="text-cyan-400">{skill}</span>
                       {
                         i !== userData.skills.length - 1 &&
                         <span className="text-gray-400">{"', '"}</span>
                       }
-                    </>
+                    </span>
                   ))
                 }
                 <span className="text-gray-400">{"'],"}</span>

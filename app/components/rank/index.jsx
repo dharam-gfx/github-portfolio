@@ -13,7 +13,7 @@ function Rank() {
         <>
           <GlowCard identifier="streak">
             <Image
-              src={`https://github-readme-streak-stats.herokuapp.com/?user=${userData.githubUser}&theme=algolia&hide_border=true`}
+              src={`https://github-readme-streak-stats.herokuapp.com/?user=${userData.githubUser}&theme=algolia&hide_border=true&nocache=true`}
               width={1080}
               height={520}
               alt="github streak"
@@ -22,7 +22,7 @@ function Rank() {
           </GlowCard>
           <GlowCard identifier="productive-time">
             <Image
-              src={`http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=${userData.githubUser}&theme=algolia&utcOffset=${userData.timezone}`}
+              src={`http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=${userData.githubUser}&theme=algolia&utcOffset=${userData.timezone}&nocache=true`}
               width={1080}
               height={560}
               alt="github productive-time"
