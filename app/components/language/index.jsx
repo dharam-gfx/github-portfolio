@@ -1,6 +1,5 @@
 // @flow strict
 import { userData } from "@/data/user-data";
-import Image from "next/image";
 import GlowCard from "../helper/glow-card";
 import SectionTitle from "../helper/section-title";
 
@@ -22,7 +21,7 @@ function GitLanguage() {
           </GlowCard>
 
           <GlowCard identifier="most-commit-language">
-            <Image
+            <img
               src={`http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=${userData.githubUser}&theme=algolia&nocache=true`}
               width={1080}
               height={560}
@@ -34,7 +33,7 @@ function GitLanguage() {
 
         <div className="md:col-span-2">
           <GlowCard identifier="top-langs">
-            <Image
+            <img
               src={`https://github-readme-stats.vercel.app/api/top-langs/?username=${userData.githubUser}&layout=compact&theme=algolia&hide_border=true&langs_count=10&nocache=true`}
               width={1080}
               height={560}

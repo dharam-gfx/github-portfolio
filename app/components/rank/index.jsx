@@ -1,6 +1,5 @@
 // @flow strict
 import { userData } from "@/data/user-data";
-import Image from "next/image";
 import GlowCard from "../helper/glow-card";
 import SectionTitle from "../helper/section-title";
 
@@ -12,7 +11,7 @@ function Rank() {
       <div className="py-8 grid grid-cols-1 md:grid-cols-2 gap-5">
         <>
           <GlowCard identifier="streak">
-            <Image
+            <img
               src={`https://github-readme-streak-stats.herokuapp.com/?user=${userData.githubUser}&theme=algolia&hide_border=true&nocache=true`}
               width={1080}
               height={520}
@@ -21,7 +20,7 @@ function Rank() {
             />
           </GlowCard>
           <GlowCard identifier="productive-time">
-            <Image
+            <img
               src={`http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=${userData.githubUser}&theme=algolia&utcOffset=${userData.timezone}&nocache=true`}
               width={1080}
               height={560}
@@ -32,14 +31,14 @@ function Rank() {
         </>
 
         <>
-          <Image
+          <img
             src={`https://stardev.io/developers/${userData.githubUser}/badge/languages/global.svg`}
             width={1080}
             height={520}
             alt="github global"
             className="rounded-lg"
           />
-          <Image
+          <img
             src={`https://stardev.io/developers/${userData.githubUser}/badge/languages/locality.svg`}
             width={1080}
             height={520}
