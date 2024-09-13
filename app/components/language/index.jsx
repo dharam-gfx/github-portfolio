@@ -12,7 +12,7 @@ function GitLanguage() {
       <div className="py-8 grid grid-cols-1 md:grid-cols-2 gap-5">
         <>
           <GlowCard identifier="repos-per-language">
-            <Image
+            <img
               src={`http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=${userData.githubUser}&theme=algolia&nocache=true`}
               width={1080}
               height={560}
